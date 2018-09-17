@@ -1,0 +1,191 @@
+/*
+* @Author: Administrator
+* @Date:   2018-05-04 17:26:58
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-05-06 17:09:54
+*/
+/*
+* @Author: Administrator
+* @Date:   2018-05-02 20:41:01
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-05-02 22:41:31
+*/
+/* 导航开始 */
+.nav{
+	width: 100%;
+	height: 70px;
+
+	display: flex;
+}
+.nav .main{
+	width: 1150px;
+	height: 60px;
+
+	margin: 5px auto;
+	display: flex;
+}
+.nav .main .tupian{
+	width: 180px;
+	height: 60px;
+	background-image: url('../img/index.jpg');
+	background-size: 100%;
+
+}
+
+.nav .main .kuai{
+	width: 717.5px;
+	height: 60px;
+
+	margin-left: 253px;
+	display: flex;
+}
+.nav .main .kuai .box{
+	width: 100px;
+	height: 65px;
+	flex-direction: row;
+	font-size: 15px;
+	text-align: center;
+	line-height: 65px;
+	box-sizing: border-box;
+
+}
+.nav .main .kuai .box a{
+	display: block;
+	color: #898989;
+}
+.nav .main .kuai .box .dongtai{
+	color: #e96193;
+}
+.nav .main .kuai .box:hover a{
+	color: #e96193;
+	transition: 0.1s;
+	
+}
+.nav .main .kuai .box span{	
+	font-size: 15px;
+	color: red;
+}
+.nav .main .kuai .box:hover{
+	border-bottom: 6px solid #f06f6f;
+	transition: 0.5s;
+}
+
+.nav .main .kuai .box:nth-child(1){
+	width: 70px;
+	
+}
+.nav .main .kuai .box:nth-child(2){
+	width: 140px;
+}
+.nav .main .kuai .box:nth-child(3){
+	width: 140px;
+	border-bottom: 6px solid #e85151;
+}
+.nav .main .kuai .box:nth-child(7){
+	width: 107.5px;
+}
+/* 导航结束 */
+
+/* 内容开始 */
+.neirong{
+	width: 100%;
+	height: 1200px;
+	background: #eee;
+
+}
+.neirong .daohang{
+	width: 1170px;
+	height: 40px;
+	margin: 0 auto;
+	line-height: 40px;
+}
+.neirong .daohang span{
+	font-size: 14px;
+	color: #999c9f;
+}
+.neirong .daohang a{
+	font-size: 14px;
+	color: #999c9f;
+}
+.neirong .daohang i{
+	color: #999c9f;
+}
+.neirong .daohang .shouye{
+	color: black;
+}
+.neirong .zhengwen{
+	width: 970px;
+	height: 1100px;
+	background: white;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+.neirong .zhengwen .top{
+	width: 900px;
+	height: 121px;
+	margin: 15px auto 0 auto;
+	border-bottom: 1px dashed #eee;
+	box-sizing: border-box;
+}
+.neirong .zhengwen .top h2{
+	padding-top: 30px;
+	padding-left: 15px;
+	padding-bottom: 20px;
+}
+.neirong .zhengwen .top .icon-clock{
+	padding-left: 15px;
+	font-size: 15px;
+	color: #999c9f;
+}
+.neirong .zhengwen .top .icon-guancha{
+	padding-left: 15px;
+	font-size: 15px;
+	color: #999c9f;
+}
+.neirong .zhengwen .top span{
+	font-size: 13px;
+	color: #999c9f;
+}
+.neirong .zhengwen .bottom3{
+	width: 900px;
+	height: 1100px;
+	margin: 0 auto;
+}
+.neirong .zhengwen .bottom3 pre{
+	padding-top: 16px;
+	font-size: 16px;
+	padding-left: 15px;
+	color: #7c7b7b;
+	font-weight: bold;
+}
+.neirong .zhengwen .bottom3 pre h1{
+	color: #e85151;
+}
+/* 内容结束 */
+
+/* 底部开始 */
+.bottom{
+	width: 100%;
+	height: 207px;
+	background: #e6e6e6;
+}
+.bottom .wrapper{
+	width: 1170px;
+
+	margin: 0 auto;
+}
+.bottom .wrapper .wenzi{
+	width: 100%;
+	height: 16px;
+
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	color: #a58c8b;
+	padding-top: 30px;
+}
+.bottom .wrapper .wenzi:nth-child(4){
+	font-size: 12px;
+}
+/* 底部结束 */

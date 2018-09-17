@@ -1,0 +1,307 @@
+/*
+* @Author: Administrator
+* @Date:   2018-05-03 16:20:46
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-05-03 19:33:56
+*/
+/* 导航开始 */
+.nav{
+	width: 100%;
+	height: 70px;
+
+	display: flex;
+}
+.nav .main{
+	width: 1150px;
+	height: 60px;
+
+	margin: 5px auto;
+	display: flex;
+}
+.nav .main .tupian{
+	width: 180px;
+	height: 60px;
+	background-image: url('../img/index.jpg');
+	background-size: 100%;
+
+}
+
+.nav .main .kuai{
+	width: 717.5px;
+	height: 60px;
+
+	margin-left: 253px;
+	display: flex;
+}
+.nav .main .kuai .box{
+	width: 100px;
+	height: 65px;
+	flex-direction: row;
+	font-size: 15px;
+	text-align: center;
+	line-height: 65px;
+	box-sizing: border-box;
+
+}
+.nav .main .kuai .box a{
+	display: block;
+	color: #898989;
+}
+.nav .main .kuai .box .jiaru{
+	color: #e96193;
+}
+.nav .main .kuai .box:hover a{
+	color: #e96193;
+	transition: 0.1s;
+	
+}
+.nav .main .kuai .box span{	
+	font-size: 15px;
+	color: red;
+}
+.nav .main .kuai .box:hover{
+	border-bottom: 6px solid #f06f6f;
+	transition: 0.5s;
+}
+
+.nav .main .kuai .box:nth-child(1){
+	width: 70px;
+	
+}
+.nav .main .kuai .box:nth-child(2){
+	width: 140px;
+}
+.nav .main .kuai .box:nth-child(3){
+	width: 140px;
+}
+.nav .main .kuai .box:nth-child(5){
+	border-bottom: 6px solid #e85151;
+}
+
+.nav .main .kuai .box:nth-child(7){
+	width: 107.5px;
+}
+/* 导航结束 */
+
+/* 导航图片开始 */
+.daohangtupian{
+	width: 100%;
+	height: 222.86px;
+	background-image: url('../img/join.jpg');
+	background-size: 100%;
+}
+/* 导航图片结束 */
+
+/* 内容开始 */
+.neirong{
+	width: 1170px;
+	height: 805px;
+	margin: 20px auto 0 auto;
+	border: 1px solid #eeeeee;
+	box-sizing: border-box;
+}
+.neirong .top{
+	width: 1144px;
+	height: 180px;
+	margin: 50px auto 0 auto;
+}
+
+.neirong .top .box{
+	width: 200px;
+	height: 148px;
+	float: left;
+	margin-right: 80px;
+	text-align: center;
+	position: relative;
+}
+.neirong .top .box:nth-child(1){
+	margin-left: 52px;
+}
+.neirong .top .box:nth-child(4){
+	margin-right: 0;
+}
+.neirong .top .box .yuan{
+	width: 99px;
+	height: 99px;
+	border: 3px solid #999999;
+	box-sizing: border-box;
+	border-radius: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+.neirong .top .box:nth-child(1) .yuan{
+	border: 3px solid #ff7a7b;
+}
+.neirong .top .box:nth-child(1) .yuan i{
+	color: #ff7a7b;
+}
+.neirong .top .box:nth-child(1) span{
+	color: #ff7a7b;
+}
+.neirong .top .box:hover .yuan{
+	border: 3px solid #ff7a7b;
+	transition: 0.5s;
+}
+.neirong .top .box:hover .yuan i{
+	color: #ff7a7b;
+	transition: 0.5s;
+}
+.neirong .top .box:hover span{
+	color: #ff7a7b;
+	transition: 0.5s;
+}
+.neirong .top .box .yuan i{
+	font-size: 65px;
+	line-height: 99px;
+	color: #999999;
+}
+.neirong .top .box .yuan .icon-shixibaogao{
+	font-size: 50px;
+}
+.neirong .top .box .yuan .icon-laba{
+	font-size: 50px;
+}
+.neirong .top .box span{
+	font-size: 24px;
+	color: #999999;
+	line-height: 50px;
+}
+.neirong .top .box a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.neirong .bottom2{
+	width: 1144px;
+	height: 650px;
+	background-image: url('../img/joinxiabu.jpg');
+	background-size: 100%;
+	margin: 0 auto;
+	position: relative;
+	background-repeat: no-repeat;
+}
+.neirong .bottom2 .pink{
+	font-size: 35px;
+	position: absolute;
+	top: 134px;
+	left: 457px;
+}
+.neirong .bottom2 .box1{
+	width: 100%;
+	height: 61px;
+	float: left;
+	margin-top: 225px;
+	line-height: 61px;
+	text-align: center;
+	font-size: 28px;
+}
+.neirong .bottom2 .box{
+	float: left;
+	width: 100%;
+	height: 61px;
+	margin-top: 20px;
+	line-height: 61px;
+	text-align: center;
+	font-size: 28px;
+}
+.neirong .bottom2 .box1 .icon-liwu-copy{
+	font-size: 24px;
+}
+.neirong .bottom2 .box .icon-book{
+	font-size: 24px;
+}
+.neirong .bottom2 .box .icon-liaotian{
+	font-size: 24px;
+}
+.neirong .boxlist .bottom3 .left li{
+	margin-top: 10px;
+}
+.neirong .boxlist .bottom3 .left li span{
+	color: #ED7575;
+	font-size: 24px;
+	margin-left: 10px;
+}
+.neirong .boxlist .bottom3 .left li ul{
+	color: #ED7575;
+	margin-top: 15px;
+	padding: 10px;
+}
+.neirong .boxlist .bottom3 .left li ol{
+	color: #757575;
+	font-size: 14px;
+}
+
+.neirong .boxlist .bottom3 .right li{
+	margin-top: 10px;
+
+}
+.neirong .boxlist .bottom3 .right li span{
+	color: #ED7575;
+	font-size: 24px;
+}
+.neirong .boxlist .bottom3 .right li ul{
+	color: #ED7575;
+	margin-top: 25px;
+}
+.neirong .boxlist .bottom3 .right li ol{
+	color: #757575;
+	font-size: 14px;
+}
+.neirong .boxlist .bottom4 pre span{
+	color: #ED7575;
+}
+.neirong .boxlist .bottom4 pre span b{
+	color: #ED7575;
+	font-size: 16px;
+}
+.neirong .boxlist .bottom4{
+	background: white;
+}
+.neirong .boxlist img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+}
+.hots{
+	border: 1px solid #ED7575;
+}
+/*.neirong .boxlist .bottom3{*/
+	/*background: white;*/
+/*}*/
+/*.neirong .boxlist .bottom5{*/
+	/*background: white;*/
+/*}*/
+/* 内容结束 */
+
+/* 底部开始 */
+.bottom{
+	width: 100%;
+	height: 207px;
+	background: #e6e6e6;
+	float: left;
+	margin-top: 65px;
+}
+.bottom .wrapper{
+	width: 1170px;
+
+	margin: 0 auto;
+}
+.bottom .wrapper .wenzi{
+	width: 100%;
+	height: 16px;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	color: #a58c8b;
+	padding-top: 30px;
+}
+.bottom .wrapper .wenzi:nth-child(4){
+	font-size: 12px;
+}
+/* 底部结束 
